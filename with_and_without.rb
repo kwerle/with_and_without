@@ -26,6 +26,6 @@ WithMethod.extend ExtensionTwo
 puts WithMethod.foo # foo
 
 WithoutMethod.extend ExtensionOne
-puts WithoutMethod.foo
+puts WithoutMethod.foo # One
 WithoutMethod.extend ExtensionTwo
-puts WithoutMethod.foo
+puts WithoutMethod.foo # Two One
